@@ -1,0 +1,28 @@
+{
+  "name": "gitbook-plugin-handyman-quote",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "gitbook": ">2.x.x"
+  },
+  "gitbook": {
+    "properties": {
+      "credit": {
+        "type": "string",
+        "title": "Who the quote is credited to",
+        "default": ""
+      },
+      "href": {
+        "type": "string",
+        "title": "Optional link to quote origin",
+        "default": ""
+      },
+      "date": {
+        "type": "string",
+        "title": "Optional date",
+        "default": ""
+      }
+    }
+  }
+}
